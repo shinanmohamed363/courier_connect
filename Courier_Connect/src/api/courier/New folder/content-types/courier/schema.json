@@ -1,0 +1,58 @@
+{
+  "kind": "collectionType",
+  "collectionName": "couriers",
+  "info": {
+    "singularName": "courier",
+    "pluralName": "couriers",
+    "displayName": "courier",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "username": {
+      "type": "string"
+    },
+    "email": {
+      "type": "email",
+      "required": true
+    },
+    "password": {
+      "type": "password",
+      "required": true
+    },
+    "Rating": {
+      "type": "string"
+    },
+    "complain": {
+      "type": "string"
+    },
+    "complainDate": {
+      "type": "datetime"
+    },
+    "suggestions": {
+      "type": "blocks"
+    },
+    "userId": {
+      "type": "string"
+    },
+    "Mobile": {
+      "type": "string"
+    },
+    "Address": {
+      "type": "string"
+    },
+    "Profile": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": true
+    }
+  }
+}
